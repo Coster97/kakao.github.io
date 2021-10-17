@@ -1,0 +1,46 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    margin:25px 18px;
+}
+
+.screen-header-title{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.screen-header-icon{
+    margin-top: 8px;
+}
+.screen-header-icon span{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.6;
+     
+}
+
+#friends-display-link{
+    background-color: rgba(220, 220, 220, 0.37);
+    display: flex;
+    justify-content: center;
+    height: 43px;
+    padding: 13px;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+    
+}
+
+#friends-display-link span{
+    font-size: 16px;
+
+}
+
+#friends-display-link span:first-child{
+    margin-right: 6px;
+    opacity: 0.3;
+}
+#friends-display-link span:last-child{
+    opacity: 0.9;
+}
